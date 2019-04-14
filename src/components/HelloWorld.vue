@@ -67,6 +67,11 @@ export default {
         }
       } else {
         this.$message.error("请输入正确链接🔗");
+        // this.$msgbox({
+        //   title: "提示",
+        //   message: "请输入正确链接🔗",
+        //   type: "error"
+        // });
       }
     }
   }

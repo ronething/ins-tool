@@ -1,5 +1,6 @@
 import axios from 'axios'
 import Config from '@/config'
+import Vue from 'vue'
 
 // 创建一个拥有通用配置的axios实例
 const http = axios.create({
@@ -18,6 +19,7 @@ const http = axios.create({
 http.interceptors.response.use(
     res => res.data,
     (error) => {
+        Vue.prototype.$message.error("请求发生错误");
         console.log('error', error)
     },
 )
