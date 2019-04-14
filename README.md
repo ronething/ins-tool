@@ -1,29 +1,23 @@
-# ins-tool
+# ins-tool-client
 
-## Project setup
+## Introduction
+
+ins 链接解析前端页面。很菜。刚学 CSS
+
+## Development
+
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
 yarn run serve
-```
-
-### Compiles and minifies for production
-```
 yarn run build
 ```
 
-### Run your tests
-```
-yarn run test
-```
+## Demo Site
 
-### Lints and fixes files
-```
-yarn run lint
-```
+- [ins](http://ins.ronething.com)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](./gif/out.gif)
+
+## Acknowledgement
+
+- [MikuTools](https://miku.tools/)
